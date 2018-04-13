@@ -7,22 +7,27 @@
   Find the latest version on InstantSearch.js website: https://community.algolia.com/instantsearch.js/v2/guides/usage.html -->
 </head>
 <body>
-  <header>
+  <div class="wrapper">
     <div class="input">
       <input id="search-input" placeholder="Căutare">
       <!-- We use a specific placeholder in the input to guides users in their search. -->
     </div>
-  </header>
-  <main>
-    <div id="hits"></div>
-    <div id="pagination"></div>
-  </main>
+    <div class="logo">
+      <a href="https://www.algolia.com" target="_blank">
+        <img src="https://www.algolia.com/static_assets/images/press/downloads/search-by-algolia.png" alt="algolia"/>
+      </a>
+    </div>
+    <div class="main">
+      <div id="hits"></div>
+      <div id="pagination"></div>
+    </div>
+  </div>
 
   <script type="text/html" id="hit-template">
     <div class="hit">
-        <h3>
-          Pagina {{{pageno}}}/{{{pages}}} din documentul <a href="{{{url}}}" target="_blank">{{{url}}}</a>
-        </h3>
+      <h3>
+        Pagina {{{pageno}}}/{{{pages}}} din documentul <a href="{{{url}}}" target="_blank">{{{url}}}</a>
+      </h3>
       <p class="hit-text">
         <br />
         <br />
