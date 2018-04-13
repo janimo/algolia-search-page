@@ -1,0 +1,33 @@
+.body {
+	font: "Helvetica", "Arial", sans-serif;
+	background: #eee;
+}
+
+.input {
+	display: block;
+	padding: 1em 1em;
+	text-align: center;
+	background: #ddd;
+}
+
+#search-input {
+	height: 2em;
+	font-size: 2em;
+}
+.hit-text {
+	line-height:1.4;
+	font-size: 1.2em;
+	max-width: 60em;
+	margin: 2em auto;
+	background: white;
+}
+
+.hit h3 {
+	padding: 1em 1em;
+	background: #eee;
+	font-size:1.6em;
+}
+
+.hit-text em {
+	font-size:2em;
+}
