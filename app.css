@@ -1,6 +1,6 @@
-.body {
+body {
 	font: "Helvetica", "Arial", sans-serif;
-	background: #eee;
+	text-align: justify;
 }
 
 .wrapper {
@@ -15,6 +15,12 @@
 	grid-row: 1;
 }
 
+#search-input {
+	height: 2em;
+	font-size: 2em;
+	background: lightgreen;
+}
+
 .logo {
 	grid-column: 4;
 	grid-row: 1;
@@ -23,11 +29,6 @@
 .main {
 	grid-column: 1/5;
 	grid-row: auto;
-}
-
-#search-input {
-	height: 2em;
-	font-size: 2em;
 }
 
 .ais-search-box {
@@ -41,14 +42,18 @@
 }
 
 .hit-text {
-	text-align: justify;
 	line-height:1.4;
 	font-size: 1.2em;
-	max-width: 80em;
-	margin: 2em auto;
+	width: 100%;
 	background: white;
 }
 
-.hit-text em {
-	font-size:2em;
+a {
+	word-wrap: break-word;
+	max-width: 100%;
+}
+
+em {
+	font-size:2rem;
+	background: cyan;
 }
